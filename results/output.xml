@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-22T16:49:46.317373" rpa="false" schemaversion="5">
+<suite id="s1" name="Treinamento Robot" source="C:\ProjetosRobotFramework\treinamento_robot">
+<suite id="s1-s1" name="Variaveis" source="C:\ProjetosRobotFramework\treinamento_robot\variaveis">
+<suite id="s1-s1-s1" name="Variaveis" source="C:\ProjetosRobotFramework\treinamento_robot\variaveis\variaveis.robot">
+<test id="s1-s1-s1-t1" name="Email formatado" line="45">
+<kw name="Formatar email para &quot;Genivaldo&quot; &quot;Fernandes&quot; idade &quot;30&quot;" source_name="Formatar email para &quot;${nome}&quot; &quot;${sobrenome}&quot; idade &quot;${idade}&quot;">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-02-22T16:49:46.370472" level="INFO">${email} = Genivaldo_Fernandes_30@robot.com</msg>
+<var>${email}</var>
+<arg>\n"${nome}"+"_"+"${sobrenome}"+"_"+"${idade}"+"@robot.com"</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-02-22T16:49:46.369476" elapsed="0.001996"/>
+</kw>
+<return>
+<value>${email}</value>
+<status status="PASS" start="2024-02-22T16:49:46.371472" elapsed="0.000000"/>
+</return>
+<msg time="2024-02-22T16:49:46.372472" level="INFO">${email} = Genivaldo_Fernandes_30@robot.com</msg>
+<var>${email}</var>
+<status status="PASS" start="2024-02-22T16:49:46.369476" elapsed="0.003114"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n\n${email}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-22T16:49:46.372590" elapsed="0.000882"/>
+</kw>
+<status status="PASS" start="2024-02-22T16:49:46.367472" elapsed="0.006999"/>
+</test>
+<status status="PASS" start="2024-02-22T16:49:46.364471" elapsed="0.011001"/>
+</suite>
+<status status="PASS" start="2024-02-22T16:49:46.361472" elapsed="0.017003"/>
+</suite>
+<status status="PASS" start="2024-02-22T16:49:46.323373" elapsed="0.057100"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Treinamento Robot">Treinamento Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Variaveis">Treinamento Robot.Variaveis</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Variaveis">Treinamento Robot.Variaveis.Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
